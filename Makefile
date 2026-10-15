@@ -1,6 +1,6 @@
 PY := .venv/bin/python
 
-.PHONY: setup data test all
+.PHONY: setup data backtest-baselines test all
 
 # Bootstrap the environment. Needed once on a clean clone: uv download the
 # pinned CPython from .python-version and installs exact pins.
@@ -11,7 +11,10 @@ setup:
 data:
 	$(PY) -m src.panel
 
+backtest-baselines:
+	$(PY) -m src.backtest
+
 test:
 	$(PY) -m pytest -q
 
-all: data test
+all: data backtest-baselines test
