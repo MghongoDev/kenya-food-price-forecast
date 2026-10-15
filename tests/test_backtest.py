@@ -26,11 +26,6 @@ def _panel_rows(rows, series="white_maize_wholesale"):
         columns=PANEL_COLUMNS,
     )
 
-
-def _seq(months, base, step):
-    return base + step * np.arange(len(months), dtype=float)
-
-
 # --- slice 1: month arithmetic + the harness contract -------------------------
 
 def test_months_ahead_steps_the_origin():
@@ -95,7 +90,6 @@ def test_harness_scores_observed_targets_only():
 
 # --- slice 2: naive baseline ---------------------------------------------------
 from src.baselines import naive
-from src.backtest import months_ahead as _months_ahead  # noqa: F401 (used in fixtures)
 
 
 def test_naive_forecasts_the_last_observed_price_for_every_horizon():
@@ -155,7 +149,6 @@ def test_seasonal_naive_falls_back_twenty_four_months_and_abstains():
 
 # --- slice 4: seasonal mean log change -----------------------------------------
 from src.baselines import seasonal_mean_log_change
-from src.backtest import months_ahead as ma4
 
 
 def test_seasonal_mean_log_change_grows_the_last_price_by_the_mean_log_change():
