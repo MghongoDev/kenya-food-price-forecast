@@ -2,7 +2,7 @@
 
 ## Status
 
-Accepted
+Accepted. Amended by ADR 0007 (per-kg normalization of bag prices and the explicit old-to-new market-id map).
 
 ## Context
 
