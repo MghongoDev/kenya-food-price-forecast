@@ -13,3 +13,6 @@ data/processed/
 # Notebooks
 .ipynb_checkpoints/
 .scratch/
+
+# CHIRPS cache: ~900MB, public domain, rebuilt by make rain
+data/raw/chirps/
