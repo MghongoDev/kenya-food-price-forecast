@@ -32,6 +32,9 @@ MARKET_MAP = {
 
 PRICE_TYPE = "Wholesale"
 SERIES_NAME = "white_maize_wholesale"
+PANEL_COLUMNS = [
+    "series", "market_id", "market", "month", "price", "observed", "source_name",
+]
 
 SUPPORTED_UNITS = {"KG": 1.0, "90 KG": BAG_KG}   # unit -> kg divisor
 
@@ -106,9 +109,7 @@ def build_panel(
         price_type=price_type,
         market_map=market_map,
     )
-    empty = pd.DataFrame(
-        columns=["series", "market_id", "market", "month", "price", "observed", "source_name"]
-    )
+    empty = pd.DataFrame(columns=PANEL_COLUMNS)
     if sel.empty:
         return empty
 
@@ -151,9 +152,7 @@ def build_panel(
     panel["series"] = series_name
     panel["source_name"] = panel["commodity"]
     panel["month"] = panel["month"].astype(str)
-    return panel[
-        ["series", "market_id", "market", "month", "price", "observed", "source_name"]
-    ]
+    return panel[PANEL_COLUMNS]
 
 
 def coverage_table(
