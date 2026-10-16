@@ -26,7 +26,10 @@ conformal:
 alerts:
 	$(PY) -m src.alerts
 
+dashboard-data:
+	$(PY) -m src.dashboard_data
+
 test:
 	$(PY) -m pytest -q
 
-all: data rain backtest-baselines backtest-model conformal alerts test
+all: data rain backtest-baselines backtest-model conformal alerts dashboard-data test
