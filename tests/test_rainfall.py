@@ -1,86 +1,147 @@
-"""Phase 3 rainfall tests at the sampling seam (issue #3).
+"""Phase 3 rainfall tests at the ClimateSERV seam (issue #3, ADR 0008).
 
-The fixture is a synthetic GeoTIFF built in-test, so the expected radius
-mean is a hand-computed literal, never the code's own re-computation.
+The API is mocked at requests.get, so the suite stays offline. Expected
+monthly values are hand-computed literals from the daily rows, never the
+code's own re-computation.
 """
+import json
+import math
+
 import numpy as np
 import pandas as pd
 import pytest
-import rasterio
-from rasterio.transform import Affine
 
-from src.rainfall import chirps_url, mean_rain_in_radius
-
-
-def _fixture_tif(tmp_path, values):
-    """6x6 raster: 1-degree pixels, centers at (col+0.5, 5.5-row), values given."""
-    data = np.array(values, dtype="float32")
-    transform = Affine(1.0, 0.0, 0.0, 0.0, -1.0, 6.0)
-    path = tmp_path / "chirps-v2.0.2022.01.tif"
-    with rasterio.open(
-        path, "w", driver="GTiff", width=6, height=6, count=1,
-        dtype="float32", transform=transform, nodata=-9999.0,
-    ) as ds:
-        ds.write(data, 1)
-    return path
+import src.rainfall as rainfall_mod
+from src.rainfall import (
+    build_rain_table,
+    circle_polygon,
+    fetch_daily,
+    job_result,
+    submit_job,
+    _get_json,
+)
 
 
-VALUES = [
-    [0.0, 1.0, 2.0, 3.0, 4.0, 5.0],
-    [6.0, 7.0, 8.0, 9.0, 10.0, 11.0],
-    [12.0, 13.0, 14.0, 15.0, 16.0, 17.0],
-    [18.0, 19.0, 20.0, 21.0, 22.0, 23.0],
-    [24.0, 25.0, 25.0, 27.0, 28.0, 29.0],
-    [30.0, 31.0, 32.0, 33.0, 34.0, 35.0],
-]
+def test_circle_polygon_is_a_closed_ring_at_the_radius():
+    ring = circle_polygon(36.74, -1.27, 25.0)["coordinates"][0]
+    assert ring[0] == ring[-1]  # closed ring
+    cos_lat = math.cos(math.radians(-1.27))
+    for lon, lat in ring[:-1]:
+        dx_km = (lon - 36.74) * 111.0 * cos_lat
+        dy_km = (lat - (-1.27)) * 111.0
+        assert abs(math.hypot(dx_km, dy_km) - 25.0) < 0.01
 
 
-def test_chirps_url_names_the_monthly_tif():
-    assert chirps_url((2022, 1)).endswith("chirps-v2.0.2022.01.tif.gz")
-    assert chirps_url((2026, 12)).endswith("chirps-v2.0.2026.12.tif.gz")
+class _FakeResponse:
+    def __init__(self, payload):
+        self._payload = payload
+
+    def raise_for_status(self):
+        pass
+
+    def json(self):
+        return self._payload
 
 
-def test_mean_rain_in_radius_averages_only_pixels_inside_the_radius(tmp_path):
-    path = _fixture_tif(tmp_path, VALUES)
-    with rasterio.open(path) as ds:
-        # north-up raster: the pixel covering (2.5, 2.5) is row 3, col 2 = 20.0;
-        # inside radius 1.2 deg sit (1.5,2.5)=19, (3.5,2.5)=21, (2.5,3.5)=14,
-        # (2.5,1.5)=25; diagonals at sqrt(2) deg are outside.
-        mean = mean_rain_in_radius(ds, lon=2.5, lat=2.5, radius_km=111.0 * 1.2)
-    assert np.isclose(mean, (20.0 + 19.0 + 21.0 + 14.0 + 25.0) / 5)
+def test_submit_job_posts_chirps_daily_average_over_the_polygon(monkeypatch):
+    calls = []
+
+    def fake_get(url, params=None, timeout=None):
+        calls.append((url, params))
+        return _FakeResponse(["job-abc"])
+
+    monkeypatch.setattr(rainfall_mod.requests, "get", fake_get)
+    job = submit_job(circle_polygon(36.74, -1.27), "01/01/2022", "12/31/2022")
+    assert job == "job-abc"
+    url, params = calls[0]
+    assert url.endswith("/api/submitDataRequest/")
+    assert params["datatype"] == "0"           # UCSB CHIRPS daily rainfall
+    assert params["operationtype"] == "5"      # average over the polygon
+    assert params["intervaltype"] == "0"       # daily
+    assert params["begintime"] == "01/01/2022" and params["endtime"] == "12/31/2022"
+    assert json.loads(params["geometry"])["type"] == "Polygon"
 
 
-def test_mean_rain_in_radius_skips_nodata_pixels(tmp_path):
-    with_nodata = [row[:] for row in VALUES]
-    with_nodata[3][2] = -9999.0  # the center pixel becomes unusable
-    path = _fixture_tif(tmp_path, with_nodata)
-    with rasterio.open(path) as ds:
-        mean = mean_rain_in_radius(ds, lon=2.5, lat=2.5, radius_km=111.0 * 1.2)
-    assert np.isclose(mean, (19.0 + 21.0 + 14.0 + 25.0) / 4)
+def test_job_result_polls_past_errmsg_until_data_arrives(monkeypatch):
+    responses = [
+        {"errMsg": "not ready"},
+        {"errMsg": "still running"},
+        {"data": [{"isodate": "01/01/2022", "value": {"avg": 1.5}}]},
+    ]
+    monkeypatch.setattr(rainfall_mod, "_get_json", lambda url, params: responses.pop(0))
+    monkeypatch.setattr(rainfall_mod.time, "sleep", lambda s: None)
+    rows = job_result("job-abc", max_polls=3)
+    assert rows == [{"isodate": "01/01/2022", "value": {"avg": 1.5}}]
 
 
-def test_mean_rain_in_radius_returns_nan_when_everything_is_nodata(tmp_path):
-    empty = [[-9999.0] * 6 for _ in range(6)]
-    path = _fixture_tif(tmp_path, empty)
-    with rasterio.open(path) as ds:
-        mean = mean_rain_in_radius(ds, lon=2.5, lat=2.5, radius_km=111.0 * 1.2)
-    assert np.isnan(mean)
+def test_job_result_raises_when_the_job_never_completes(monkeypatch):
+    monkeypatch.setattr(rainfall_mod, "_get_json", lambda url, params: {"errMsg": "nope"})
+    monkeypatch.setattr(rainfall_mod.time, "sleep", lambda s: None)
+    with pytest.raises(RuntimeError):
+        job_result("job-abc", max_polls=2)
 
 
-# --- slice F: the market rain table (no network in tests) -----------------------
-from src.rainfall import build_rain_table
+def test_get_json_retries_transient_failures(monkeypatch):
+    attempts = []
+
+    def flaky(url, params=None, timeout=None):
+        attempts.append(1)
+        if len(attempts) < 3:
+            raise rainfall_mod.requests.ConnectionError("boom")
+        return _FakeResponse({"ok": True})
+
+    monkeypatch.setattr(rainfall_mod.requests, "get", flaky)
+    monkeypatch.setattr(rainfall_mod.time, "sleep", lambda s: None)
+    assert _get_json("http://x", {}) == {"ok": True}
+    assert len(attempts) == 3
 
 
-def test_build_rain_table_means_around_each_market(tmp_path):
-    path = _fixture_tif(tmp_path, VALUES)
-    coords = pd.DataFrame([
-        {"market_id": 31, "lon": 2.5, "lat": 2.5},
-        {"market_id": 64, "lon": 5.5, "lat": 5.5},   # corner: most pixels unavailable
-    ])
-    table = build_rain_table([path], coords, radius_km=111.0 * 1.2)
-    t = table.set_index(["market_id", "month"])
-    assert len(table) == 2
-    assert np.isclose(t.loc[(31, "2022-01"), "rain_mm"], (20.0 + 19.0 + 21.0 + 14.0 + 25.0) / 5)
-    # corner market: center (5.5,5.5) is row 0 col 5 = 5.0 (north-up); the two
-    # in-radius neighbors are 4.0 (row 0 col 4) and 11.0 (row 1 col 5)
-    assert np.isclose(t.loc[(64, "2022-01"), "rain_mm"], (5.0 + 4.0 + 11.0) / 3)
+def test_fetch_daily_chunks_a_multi_year_span_by_calendar_year(monkeypatch):
+    submits = []
+    chunks = {"n": 0}
+
+    def fake_get_json(url, params):
+        if "submitDataRequest" in url:
+            submits.append((params["begintime"], params["endtime"]))
+            return ["job-1"]
+        chunks["n"] += 1
+        return {"data": [{"isodate": f"01/01/{2020 + chunks['n']}", "value": {"avg": 2.0}}]}
+
+    monkeypatch.setattr(rainfall_mod, "_get_json", fake_get_json)
+    monkeypatch.setattr(rainfall_mod.time, "sleep", lambda s: None)
+    daily = fetch_daily(36.74, -1.27, "06/01/2021", "03/31/2022")
+    assert submits == [("06/01/2021", "12/31/2021"), ("01/01/2022", "03/31/2022")]
+    assert daily["date"].dt.year.tolist() == [2021, 2022]
+    assert daily["rain_mm"].tolist() == [2.0, 2.0]
+
+
+# --- slice F: the market rain table -------------------------------------------
+
+def test_build_rain_table_sums_daily_rows_into_months(monkeypatch):
+    def fake_fetch(lon, lat, begin, end, radius_km=rainfall_mod.RADIUS_KM):
+        return pd.DataFrame({
+            "date": pd.to_datetime(["2022-01-15", "2022-01-20", "2022-02-10", "2022-02-11"]),
+            "rain_mm": [10.0, 5.0, 3.0, float("nan")],
+        })
+
+    monkeypatch.setattr(rainfall_mod, "fetch_daily", fake_fetch)
+    coords = pd.DataFrame([{"market_id": 4626, "longitude": 36.74, "latitude": -1.27}])
+    table = build_rain_table(coords, start="01/01/2022", end="02/28/2022")
+    assert table.to_dict("records") == [
+        {"market_id": 4626, "month": "2022-01", "rain_mm": 15.0},
+        {"market_id": 4626, "month": "2022-02", "rain_mm": 3.0},
+    ]
+
+
+def test_build_rain_table_keeps_a_fully_nan_month_as_nan(monkeypatch):
+    def fake_fetch(lon, lat, begin, end, radius_km=rainfall_mod.RADIUS_KM):
+        return pd.DataFrame({
+            "date": pd.to_datetime(["2022-03-01", "2022-03-02"]),
+            "rain_mm": [float("nan"), float("nan")],
+        })
+
+    monkeypatch.setattr(rainfall_mod, "fetch_daily", fake_fetch)
+    coords = pd.DataFrame([{"market_id": 185, "longitude": 35.28, "latitude": 0.52}])
+    table = build_rain_table(coords, start="03/01/2022", end="03/31/2022")
+    assert len(table) == 1
+    assert np.isnan(table.loc[0, "rain_mm"])

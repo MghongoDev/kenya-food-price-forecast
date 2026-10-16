@@ -17,6 +17,9 @@ rain:
 backtest-baselines:
 	$(PY) -m src.backtest
 
+backtest-model:
+	$(PY) -m src.model
+
 test:
 	$(PY) -m pytest -q
 
