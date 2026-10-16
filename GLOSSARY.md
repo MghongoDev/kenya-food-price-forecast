@@ -48,7 +48,7 @@ A simple rule that any model must beat to earn its complexity: naive, seasonal n
 ## Alerts and intervals
 
 **Spike**
-A price rise of at least 20 percent in the forecast month compared with the origin month. The threshold can move after checking the base rate, and the final choice is recorded.
+A price rise of at least 15 percent in the forecast month compared with the origin month. The threshold was lowered from 20 percent after the base-rate check (issue #9); the original 20 percent is the guide's starting definition.
 
 **Alert rule**
 A fixed rule that turns a forecast into alert or no alert at each origin and horizon.

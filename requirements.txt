@@ -26,6 +26,7 @@ pytest==9.1.1
 python-dateutil==2.9.0.post0
 requests==2.34.2
 scikit-learn==1.9.1
+streamlit==1.66.0
 scipy==1.18.1
 six==1.17.0
 threadpoolctl==3.7.0

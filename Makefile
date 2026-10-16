@@ -29,6 +29,9 @@ alerts:
 dashboard-data:
 	$(PY) -m src.dashboard_data
 
+app:
+	streamlit run app.py
+
 test:
 	$(PY) -m pytest -q
 
