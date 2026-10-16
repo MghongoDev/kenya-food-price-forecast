@@ -33,6 +33,8 @@ honest headline for Phase 5 and is why the cost analysis (ADR
 0009's downstream) exists: the right operating point depends on the
 false-alarm-to-miss ratio, which this ADR does not assume.
 
-The median rule is the named alternative if the upper-bound rule's
-precision proves unusable for the dashboard. Both rules share the same
-evaluation harness, so adding it is a small change.
+The naive momentum rule (price[t-1] >= 1.1 * price[t-2], "price
+already rose more than 10% last month") is the comparison baseline for
+whether the model alert earns its complexity. Measured at the spike
+threshold: model precision 0.30 / recall 0.75 vs. naive 0.22 / 0.16.
+The model beats momentum on both axes.

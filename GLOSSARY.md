@@ -79,3 +79,6 @@ One of four results at a (market, origin, horizon): TP (alert fired, spike follo
 
 **Lead time**
 How many months before a spike the alert fired. With per-horizon alert rules, the lead time is the horizon of the true positive.
+
+**Naive momentum rule**
+A baseline alert that fires when the price already rose more than 10% last month (price[t-1] >= 1.1 * price[t-2]). The comparison point for whether the model alert earns its complexity.

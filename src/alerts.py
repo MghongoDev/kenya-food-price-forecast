@@ -16,9 +16,11 @@ from pathlib import Path
 import numpy as np
 import pandas as pd
 
+from src.backtest import months_ahead
 from src.spikes import THRESHOLD as SPIKE_THRESHOLD
 
 ALERT_THRESHOLDS = np.round(np.arange(0.0, 0.51, 0.05), 2)  # implied-rise sweep
+MOMENTUM_THRESHOLD = 0.10  # "price already rose more than 10% last month"
 
 
 def classify_alerts(
@@ -75,6 +77,61 @@ def lead_time_distribution(outcomes: pd.DataFrame) -> pd.DataFrame:
             "share": float(len(g) / len(tp)),
         })
     return pd.DataFrame(rows)
+
+
+def naive_momentum_outcomes(
+    outcomes: pd.DataFrame,
+    panel: pd.DataFrame,
+    momentum_threshold: float = MOMENTUM_THRESHOLD,
+) -> pd.DataFrame:
+    """Add naive momentum alert outcomes to classified model outcomes.
+    Fire when price[t-1] >= (1+momentum_threshold) * price[t-2]
+    (last month's rise). Evaluated on the same spike targets as the
+    model alert."""
+    obs = panel[panel["observed"]].set_index(["market_id", "month"])["price"]
+    out = outcomes.copy()
+    last_month_prices = []
+    prior_month_prices = []
+    for _, row in out.iterrows():
+        last_month = months_ahead(row["origin"], -1)
+        prior_month = months_ahead(row["origin"], -2)
+        last_month_prices.append(obs.get((row["market_id"], last_month), None))
+        prior_month_prices.append(obs.get((row["market_id"], prior_month), None))
+    out["price_last_month"] = last_month_prices
+    out["price_prior_month"] = prior_month_prices
+    # 1e-9 tolerance: 1.1 * 100 = 110.00000000000001 in floating point
+    out["naive_fired"] = [
+        lp is not None and pp is not None
+        and lp >= (1 + momentum_threshold) * pp - 1e-9
+        for lp, pp in zip(out["price_last_month"], out["price_prior_month"])
+    ]
+    out["naive_outcome"] = np.select(
+        [out["naive_fired"] & out["spike"], out["naive_fired"] & ~out["spike"],
+         ~out["naive_fired"] & out["spike"]],
+        ["TP", "FP", "FN"],
+        default="TN",
+    )
+    return out
+
+
+def _pr_from_outcomes(outcomes: pd.DataFrame, outcome_col: str) -> tuple[int, int, int]:
+    """Count TP/FP/FN from an outcome column."""
+    tp = int((outcomes[outcome_col] == "TP").sum())
+    fp = int((outcomes[outcome_col] == "FP").sum())
+    fn = int((outcomes[outcome_col] == "FN").sum())
+    return tp, fp, fn
+
+
+def naive_momentum_pr(outcomes: pd.DataFrame) -> dict:
+    """Precision and recall of the naive momentum rule."""
+    tp, fp, fn = _pr_from_outcomes(outcomes, "naive_outcome")
+    return {
+        "rule": "naive_momentum",
+        "n": int(len(outcomes)),
+        "tp": tp, "fp": fp, "fn": fn,
+        "precision": tp / (tp + fp) if tp + fp else np.nan,
+        "recall": tp / (tp + fn) if tp + fn else np.nan,
+    }
 
 
 if __name__ == "__main__":
@@ -136,3 +193,26 @@ if __name__ == "__main__":
     at_spike = lt[lt["alert_threshold"] == round(SPIKE_THRESHOLD, 2)]
     print("\n== lead-time distribution at the spike threshold")
     print(at_spike.to_string(index=False))
+
+    # naive momentum comparison: the honest headline
+    spike_outcomes = outcomes[outcomes["alert_threshold"] == round(SPIKE_THRESHOLD, 2)].copy()
+    naive = naive_momentum_outcomes(spike_outcomes, panel)
+    naive_row = naive_momentum_pr(naive)
+    model_at_spike = curve[curve["alert_threshold"] == round(SPIKE_THRESHOLD, 2)].iloc[0]
+    comparison = pd.concat([
+        curve.assign(rule="model"),
+        pd.DataFrame([{**naive_row, "alert_threshold": SPIKE_THRESHOLD,
+                       "n": int(naive_row["n"]), "precision": naive_row["precision"],
+                       "recall": naive_row["recall"]}]),
+    ], ignore_index=True)
+    comparison.to_csv(processed / "alert_comparison.csv", index=False)
+    print("\n== model vs naive momentum at the spike threshold")
+    print(f"model:  precision {model_at_spike['precision']:.3f}  recall {model_at_spike['recall']:.3f}")
+    print(f"naive:  precision {naive_row['precision']:.3f}  recall {naive_row['recall']:.3f}")
+    model_wins = (model_at_spike["precision"] >= naive_row["precision"]
+                  and model_at_spike["recall"] >= naive_row["recall"])
+    if model_wins:
+        print("verdict: the model beats simple momentum on both axes")
+    else:
+        print("verdict: the model does not dominate momentum - higher recall, lower precision")
+        print("  the right operating point depends on the cost ratio (ticket #12)")
