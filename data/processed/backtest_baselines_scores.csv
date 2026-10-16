@@ -1,0 +1,1201 @@
+series,market_id,market,origin,horizon,target_month,price_true,price_pred,forecaster
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-01,1,2022-02,38.05,32.7,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-01,1,2022-02,34.3,35.3,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-01,1,2022-02,35.0,34.13333333333333,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-01,1,2022-02,43.3,41.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-01,2,2022-03,35.55,32.7,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-01,2,2022-03,32.425,35.3,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-01,2,2022-03,35.0,34.13333333333333,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-01,2,2022-03,43.85,41.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-01,3,2022-04,43.47222222222222,32.7,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-01,3,2022-04,39.17411111111111,35.3,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-01,3,2022-04,44.175,34.13333333333333,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-01,3,2022-04,48.86666666666667,41.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-02,1,2022-03,35.55,38.05,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-02,1,2022-03,32.425,34.3,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-02,1,2022-03,35.0,35.0,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-02,1,2022-03,43.85,43.3,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-02,2,2022-04,43.47222222222222,38.05,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-02,2,2022-04,39.17411111111111,34.3,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-02,2,2022-04,44.175,35.0,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-02,2,2022-04,48.86666666666667,43.3,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-02,3,2022-05,46.5,38.05,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-02,3,2022-05,40.36666666666667,34.3,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-02,3,2022-05,47.34166666666667,35.0,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-02,3,2022-05,53.3,43.3,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-03,1,2022-04,43.47222222222222,35.55,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-03,1,2022-04,39.17411111111111,32.425,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-03,1,2022-04,44.175,35.0,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-03,1,2022-04,48.86666666666667,43.85,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-03,2,2022-05,46.5,35.55,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-03,2,2022-05,40.36666666666667,32.425,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-03,2,2022-05,47.34166666666667,35.0,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-03,2,2022-05,53.3,43.85,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-03,3,2022-06,66.53333333333333,35.55,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-03,3,2022-06,58.5,32.425,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-03,3,2022-06,64.45555555555555,43.85,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-03,3,2022-06,64.85555555555555,20.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-04,1,2022-05,46.5,43.47222222222222,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-04,1,2022-05,40.36666666666667,39.17411111111111,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-04,1,2022-05,47.34166666666667,44.175,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-04,1,2022-05,53.3,48.86666666666667,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-04,2,2022-06,66.53333333333333,43.47222222222222,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-04,2,2022-06,58.5,39.17411111111111,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-04,2,2022-06,64.45555555555555,48.86666666666667,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-04,2,2022-06,64.85555555555555,20.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-04,3,2022-07,90.31111111111112,43.47222222222222,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-04,3,2022-07,56.611111111111114,39.17411111111111,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-04,3,2022-07,66.32222222222222,44.175,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-04,3,2022-07,75.6,48.86666666666667,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-04,3,2022-07,61.1,20.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-05,1,2022-06,66.53333333333333,46.5,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-05,1,2022-06,58.5,40.36666666666667,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-05,1,2022-06,64.45555555555555,53.3,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-05,1,2022-06,64.85555555555555,20.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-05,2,2022-07,90.31111111111112,46.5,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-05,2,2022-07,56.611111111111114,40.36666666666667,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-05,2,2022-07,66.32222222222222,47.34166666666667,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-05,2,2022-07,75.6,53.3,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-05,2,2022-07,61.1,20.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-05,3,2022-08,65.25,46.5,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-05,3,2022-08,60.275,40.36666666666667,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-05,3,2022-08,63.437555555555555,47.34166666666667,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-05,3,2022-08,68.48,53.3,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-06,1,2022-07,90.31111111111112,66.53333333333333,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-06,1,2022-07,56.611111111111114,58.5,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-06,1,2022-07,66.32222222222222,47.34166666666667,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-06,1,2022-07,75.6,64.45555555555555,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-06,1,2022-07,61.1,64.85555555555555,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-06,2,2022-08,65.25,66.53333333333333,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-06,2,2022-08,60.275,58.5,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-06,2,2022-08,63.437555555555555,47.34166666666667,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-06,2,2022-08,68.48,64.45555555555555,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-06,3,2022-09,59.7,66.53333333333333,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-06,3,2022-09,63.20666666666667,58.5,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-06,3,2022-09,63.3,47.34166666666667,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-06,3,2022-09,65.575,64.45555555555555,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-07,1,2022-08,65.25,90.31111111111112,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-07,1,2022-08,60.275,56.611111111111114,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-07,1,2022-08,63.437555555555555,66.32222222222222,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-07,1,2022-08,68.48,75.6,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-07,2,2022-09,59.7,90.31111111111112,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-07,2,2022-09,63.20666666666667,56.611111111111114,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-07,2,2022-09,63.3,66.32222222222222,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-07,2,2022-09,65.575,75.6,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-07,3,2022-10,59.833333333333336,90.31111111111112,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-07,3,2022-10,64.2208888888889,56.611111111111114,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-07,3,2022-10,60.14666666666666,66.32222222222222,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-07,3,2022-10,68.9,75.6,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-08,1,2022-09,59.7,65.25,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-08,1,2022-09,63.20666666666667,60.275,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-08,1,2022-09,63.3,63.437555555555555,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-08,1,2022-09,65.575,68.48,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-08,2,2022-10,59.833333333333336,65.25,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-08,2,2022-10,64.2208888888889,60.275,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-08,2,2022-10,60.14666666666666,63.437555555555555,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-08,2,2022-10,68.9,68.48,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-08,3,2022-11,57.333333333333336,65.25,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-08,3,2022-11,62.22222222222222,60.275,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-08,3,2022-11,57.86666666666667,63.437555555555555,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-08,3,2022-11,80.0,68.48,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-09,1,2022-10,59.833333333333336,59.7,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-09,1,2022-10,64.2208888888889,63.20666666666667,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-09,1,2022-10,60.14666666666666,63.3,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-09,1,2022-10,68.9,65.575,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-09,2,2022-11,57.333333333333336,59.7,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-09,2,2022-11,62.22222222222222,63.20666666666667,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-09,2,2022-11,57.86666666666667,63.3,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-09,2,2022-11,80.0,65.575,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-09,3,2022-12,61.46666666666667,59.7,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-09,3,2022-12,64.2,63.20666666666667,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-09,3,2022-12,59.266666666666666,63.3,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-09,3,2022-12,58.9,65.575,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-10,1,2022-11,57.333333333333336,59.833333333333336,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-10,1,2022-11,62.22222222222222,64.2208888888889,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-10,1,2022-11,57.86666666666667,60.14666666666666,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-10,1,2022-11,80.0,68.9,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-10,2,2022-12,61.46666666666667,59.833333333333336,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-10,2,2022-12,64.2,64.2208888888889,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-10,2,2022-12,59.266666666666666,60.14666666666666,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-10,2,2022-12,58.9,68.9,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-10,3,2023-01,63.766666666666666,59.833333333333336,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-10,3,2023-01,57.44444444444444,64.2208888888889,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-10,3,2023-01,52.86666666666667,60.14666666666666,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-10,3,2023-01,59.455555555555556,68.9,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-10,3,2023-01,52.0,61.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-11,1,2022-12,61.46666666666667,57.333333333333336,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-11,1,2022-12,64.2,62.22222222222222,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-11,1,2022-12,59.266666666666666,57.86666666666667,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-11,1,2022-12,58.9,80.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-11,2,2023-01,63.766666666666666,57.333333333333336,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-11,2,2023-01,57.44444444444444,62.22222222222222,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-11,2,2023-01,52.86666666666667,57.86666666666667,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-11,2,2023-01,59.455555555555556,80.0,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-11,2,2023-01,52.0,61.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-11,3,2023-02,66.11111111111111,57.333333333333336,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-11,3,2023-02,58.07088888888889,62.22222222222222,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-11,3,2023-02,60.86088888888889,57.86666666666667,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-11,3,2023-02,60.0,80.0,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-11,3,2023-02,57.0,61.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-12,1,2023-01,63.766666666666666,61.46666666666667,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-12,1,2023-01,57.44444444444444,64.2,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-12,1,2023-01,52.86666666666667,59.266666666666666,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-12,1,2023-01,59.455555555555556,58.9,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-12,1,2023-01,52.0,61.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-12,2,2023-02,66.11111111111111,61.46666666666667,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-12,2,2023-02,58.07088888888889,64.2,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-12,2,2023-02,60.86088888888889,59.266666666666666,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-12,2,2023-02,60.0,58.9,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-12,2,2023-02,57.0,61.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-12,3,2023-03,71.87777777777778,61.46666666666667,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-12,3,2023-03,66.52222222222223,64.2,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-12,3,2023-03,64.1,59.266666666666666,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-12,3,2023-03,58.9,58.9,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-12,3,2023-03,63.0,61.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-01,1,2023-02,66.11111111111111,63.766666666666666,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-01,1,2023-02,58.07088888888889,57.44444444444444,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-01,1,2023-02,60.86088888888889,52.86666666666667,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-01,1,2023-02,60.0,59.455555555555556,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-01,1,2023-02,57.0,52.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-01,2,2023-03,71.87777777777778,63.766666666666666,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-01,2,2023-03,66.52222222222223,57.44444444444444,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-01,2,2023-03,64.1,52.86666666666667,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-01,2,2023-03,58.9,59.455555555555556,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-01,2,2023-03,63.0,52.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-01,3,2023-04,77.83333333333333,63.766666666666666,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-01,3,2023-04,67.60333333333334,57.44444444444444,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-01,3,2023-04,60.0,59.455555555555556,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-01,3,2023-04,65.5,52.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-02,1,2023-03,71.87777777777778,66.11111111111111,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-02,1,2023-03,66.52222222222223,58.07088888888889,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-02,1,2023-03,64.1,60.86088888888889,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-02,1,2023-03,58.9,60.0,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-02,1,2023-03,63.0,57.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-02,2,2023-04,77.83333333333333,66.11111111111111,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-02,2,2023-04,67.60333333333334,58.07088888888889,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-02,2,2023-04,60.0,60.0,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-02,2,2023-04,65.5,57.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-02,3,2023-05,84.5,66.11111111111111,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-02,3,2023-05,70.31166666666667,58.07088888888889,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-02,3,2023-05,69.333,60.86088888888889,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-02,3,2023-05,70.73333333333333,60.0,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-02,3,2023-05,63.0,57.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-03,1,2023-04,77.83333333333333,71.87777777777778,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-03,1,2023-04,67.60333333333334,66.52222222222223,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-03,1,2023-04,60.0,58.9,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-03,1,2023-04,65.5,63.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-03,2,2023-05,84.5,71.87777777777778,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-03,2,2023-05,70.31166666666667,66.52222222222223,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-03,2,2023-05,69.333,64.1,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-03,2,2023-05,70.73333333333333,58.9,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-03,2,2023-05,63.0,63.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-03,3,2023-06,90.42222222222222,71.87777777777778,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-03,3,2023-06,66.62222222222222,66.52222222222223,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-03,3,2023-06,72.12222222222222,64.1,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-03,3,2023-06,83.68888888888888,58.9,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-03,3,2023-06,64.0,63.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-04,1,2023-05,84.5,77.83333333333333,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-04,1,2023-05,70.31166666666667,67.60333333333334,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-04,1,2023-05,69.333,64.1,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-04,1,2023-05,70.73333333333333,60.0,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-04,1,2023-05,63.0,65.5,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-04,2,2023-06,90.42222222222222,77.83333333333333,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-04,2,2023-06,66.62222222222222,67.60333333333334,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-04,2,2023-06,72.12222222222222,64.1,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-04,2,2023-06,83.68888888888888,60.0,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-04,2,2023-06,64.0,65.5,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-04,3,2023-07,90.0,77.83333333333333,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-04,3,2023-07,66.58888888888889,67.60333333333334,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-04,3,2023-07,66.94444444444444,64.1,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-04,3,2023-07,87.03333333333333,60.0,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-04,3,2023-07,58.25555555555555,65.5,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-05,1,2023-06,90.42222222222222,84.5,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-05,1,2023-06,66.62222222222222,70.31166666666667,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-05,1,2023-06,72.12222222222222,69.333,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-05,1,2023-06,83.68888888888888,70.73333333333333,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-05,1,2023-06,64.0,63.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-05,2,2023-07,90.0,84.5,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-05,2,2023-07,66.58888888888889,70.31166666666667,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-05,2,2023-07,66.94444444444444,69.333,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-05,2,2023-07,87.03333333333333,70.73333333333333,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-05,2,2023-07,58.25555555555555,63.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-05,3,2023-08,51.1,69.333,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-06,1,2023-07,90.0,90.42222222222222,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-06,1,2023-07,66.58888888888889,66.62222222222222,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-06,1,2023-07,66.94444444444444,72.12222222222222,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-06,1,2023-07,87.03333333333333,83.68888888888888,naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-06,1,2023-07,58.25555555555555,64.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-06,2,2023-08,51.1,72.12222222222222,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-06,3,2023-09,57.77777777777778,66.62222222222222,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-06,3,2023-09,50.0,72.12222222222222,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-07,1,2023-08,51.1,66.94444444444444,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-07,2,2023-09,57.77777777777778,66.58888888888889,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-07,2,2023-09,50.0,66.94444444444444,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-07,3,2023-10,53.333333333333336,66.58888888888889,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-07,3,2023-10,51.1,66.94444444444444,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-08,1,2023-09,57.77777777777778,66.58888888888889,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-08,1,2023-09,50.0,51.1,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-08,2,2023-10,53.333333333333336,66.58888888888889,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-08,2,2023-10,51.1,51.1,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-09,1,2023-10,53.333333333333336,57.77777777777778,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-09,1,2023-10,51.1,50.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-09,3,2023-12,43.666666666666664,50.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-10,2,2023-12,43.666666666666664,51.1,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-10,3,2024-01,46.7,53.333333333333336,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-10,3,2024-01,45.55711111111111,51.1,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-11,1,2023-12,43.666666666666664,51.1,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-11,2,2024-01,46.7,53.333333333333336,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-11,2,2024-01,45.55711111111111,51.1,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-11,3,2024-02,45.0,90.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-11,3,2024-02,42.0,51.1,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-12,1,2024-01,46.7,53.333333333333336,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-12,1,2024-01,45.55711111111111,43.666666666666664,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-12,2,2024-02,45.0,90.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-12,2,2024-02,42.0,43.666666666666664,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-12,3,2024-03,46.25,90.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-12,3,2024-03,39.855555555555554,43.666666666666664,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-01,1,2024-02,45.0,90.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-01,1,2024-02,42.0,45.55711111111111,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-01,2,2024-03,46.25,90.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-01,2,2024-03,39.855555555555554,45.55711111111111,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-01,3,2024-04,45.0,90.0,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-01,3,2024-04,52.0,46.7,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-01,3,2024-04,36.4,45.55711111111111,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-02,1,2024-03,46.25,45.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-02,1,2024-03,39.855555555555554,42.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-02,2,2024-04,45.0,45.0,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-02,2,2024-04,52.0,46.7,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-02,2,2024-04,36.4,42.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-02,3,2024-05,44.0,45.0,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-02,3,2024-05,40.644444444444446,46.7,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-02,3,2024-05,37.87777777777778,42.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-03,1,2024-04,45.0,46.25,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-03,1,2024-04,52.0,46.7,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-03,1,2024-04,36.4,39.855555555555554,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-03,2,2024-05,44.0,46.25,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-03,2,2024-05,40.644444444444446,46.7,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-03,2,2024-05,37.87777777777778,39.855555555555554,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-03,3,2024-06,44.0,46.25,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-03,3,2024-06,37.87777777777778,39.855555555555554,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-04,1,2024-05,44.0,45.0,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-04,1,2024-05,40.644444444444446,52.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-04,1,2024-05,37.87777777777778,36.4,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-04,2,2024-06,44.0,45.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-04,2,2024-06,37.87777777777778,36.4,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-04,3,2024-07,42.5,45.0,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-04,3,2024-07,38.888888888888886,52.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-05,1,2024-06,44.0,44.0,naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-05,1,2024-06,37.87777777777778,37.87777777777778,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-05,2,2024-07,42.5,44.0,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-05,2,2024-07,38.888888888888886,40.644444444444446,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-05,3,2024-08,42.077777777777776,44.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-06,1,2024-07,42.5,44.0,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-06,1,2024-07,38.888888888888886,40.644444444444446,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-06,2,2024-08,42.077777777777776,44.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-06,3,2024-09,40.62222222222222,44.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-07,1,2024-08,42.077777777777776,42.5,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-07,2,2024-09,40.62222222222222,42.5,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-08,1,2024-09,40.62222222222222,42.077777777777776,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-09,3,2024-12,43.89,38.888888888888886,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-09,3,2024-12,43.33,87.03333333333333,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-10,2,2024-12,43.89,38.888888888888886,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-10,2,2024-12,43.33,87.03333333333333,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-10,3,2025-01,44.0,38.888888888888886,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-10,3,2025-01,49.07,87.03333333333333,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-11,1,2024-12,43.89,38.888888888888886,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-11,1,2024-12,43.33,87.03333333333333,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-11,2,2025-01,44.0,38.888888888888886,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-11,2,2025-01,49.07,87.03333333333333,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-11,3,2025-02,43.214333333333336,40.62222222222222,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-11,3,2025-02,47.336,38.888888888888886,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-11,3,2025-02,48.89,87.03333333333333,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-12,1,2025-01,44.0,43.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-12,1,2025-01,49.07,43.33,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-12,2,2025-02,43.214333333333336,40.62222222222222,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-12,2,2025-02,47.336,43.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-12,2,2025-02,48.89,43.33,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-12,3,2025-03,49.629999999999995,43.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-12,3,2025-03,48.89,43.33,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-01,1,2025-02,43.214333333333336,40.62222222222222,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-01,1,2025-02,47.336,44.0,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-01,1,2025-02,48.89,49.07,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-01,2,2025-03,49.629999999999995,44.0,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-01,2,2025-03,48.89,49.07,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-01,3,2025-04,47.5,40.62222222222222,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-01,3,2025-04,50.0,49.07,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-02,1,2025-03,49.629999999999995,47.336,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-02,1,2025-03,48.89,48.89,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-02,2,2025-04,47.5,43.214333333333336,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-02,2,2025-04,50.0,48.89,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-02,3,2025-05,55.0,43.214333333333336,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-02,3,2025-05,52.959999999999994,47.336,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-02,3,2025-05,61.11,48.89,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-03,1,2025-04,47.5,43.214333333333336,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-03,1,2025-04,50.0,48.89,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-03,2,2025-05,55.0,43.214333333333336,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-03,2,2025-05,52.959999999999994,49.629999999999995,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-03,2,2025-05,61.11,48.89,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-03,3,2025-06,62.5,43.214333333333336,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-03,3,2025-06,62.22,48.89,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-04,1,2025-05,55.0,47.5,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-04,1,2025-05,52.959999999999994,49.629999999999995,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-04,1,2025-05,61.11,50.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-04,2,2025-06,62.5,47.5,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-04,2,2025-06,62.22,50.0,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-04,3,2025-07,52.775,49.629999999999995,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-04,3,2025-07,58.89,50.0,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-05,1,2025-06,62.5,55.0,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-05,1,2025-06,62.22,61.11,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-05,2,2025-07,52.775,52.959999999999994,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-05,2,2025-07,58.89,61.11,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-05,3,2025-08,48.89,52.959999999999994,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-05,3,2025-08,57.78,61.11,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-06,1,2025-07,52.775,52.959999999999994,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-06,1,2025-07,58.89,62.22,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-06,2,2025-08,48.89,52.959999999999994,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-06,2,2025-08,57.78,62.22,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-06,3,2025-09,48.89,62.22,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-07,1,2025-08,48.89,52.775,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-07,1,2025-08,57.78,58.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-07,2,2025-09,48.89,58.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-08,1,2025-09,48.89,57.78,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-08,3,2025-11,44.44444444444444,57.78,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-09,2,2025-11,44.44444444444444,48.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-09,3,2025-12,50.36666666666667,48.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-10,1,2025-11,44.44444444444444,48.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-10,2,2025-12,50.36666666666667,48.89,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-10,3,2026-01,48.34,48.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-10,3,2026-01,48.89,48.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-11,1,2025-12,50.36666666666667,44.44444444444444,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-11,2,2026-01,48.34,48.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-11,2,2026-01,48.89,44.44444444444444,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-11,3,2026-02,51.11,48.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-11,3,2026-02,57.78,44.44444444444444,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-12,1,2026-01,48.34,48.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-12,1,2026-01,48.89,50.36666666666667,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-12,2,2026-02,51.11,48.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-12,2,2026-02,57.78,50.36666666666667,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-12,3,2026-03,50.0,48.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-12,3,2026-03,57.78,50.36666666666667,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-01,1,2026-02,51.11,48.34,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-01,1,2026-02,57.78,48.89,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-01,2,2026-03,50.0,48.34,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-01,2,2026-03,57.78,48.89,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-01,3,2026-04,58.334999999999994,48.89,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-02,1,2026-03,50.0,51.11,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-02,1,2026-03,57.78,57.78,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-02,2,2026-04,58.334999999999994,57.78,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-02,3,2026-05,60.888,57.78,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-03,1,2026-04,58.334999999999994,57.78,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-03,2,2026-05,60.888,57.78,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-03,3,2026-06,62.22,57.78,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-04,1,2026-05,60.888,58.334999999999994,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-04,2,2026-06,62.22,58.334999999999994,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-04,3,2026-07,47.78,50.0,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-04,3,2026-07,58.33255555555556,58.334999999999994,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-05,1,2026-06,62.22,60.888,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-05,2,2026-07,47.78,50.0,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-05,2,2026-07,58.33255555555556,60.888,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2026-05,3,2026-08,70.0,62.5,naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-05,3,2026-08,42.553333333333335,50.0,naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-05,3,2026-08,51.11166666666667,60.888,naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-01,1,2022-02,38.05,27.644444444444446,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-01,1,2022-02,34.3,30.0,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-01,1,2022-02,35.0,26.18888888888889,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-01,1,2022-02,43.3,42.93333333333333,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-01,2,2022-03,35.55,40.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-01,2,2022-03,32.425,28.533333333333335,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-01,2,2022-03,35.0,26.955555555555556,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-01,2,2022-03,43.85,40.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-01,3,2022-04,43.47222222222222,35.93333333333333,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-01,3,2022-04,39.17411111111111,27.8,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-01,3,2022-04,44.175,29.377777777777776,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-01,3,2022-04,48.86666666666667,38.9,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-02,1,2022-03,35.55,40.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-02,1,2022-03,32.425,28.533333333333335,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-02,1,2022-03,35.0,26.955555555555556,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-02,1,2022-03,43.85,40.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-02,2,2022-04,43.47222222222222,35.93333333333333,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-02,2,2022-04,39.17411111111111,27.8,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-02,2,2022-04,44.175,29.377777777777776,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-02,2,2022-04,48.86666666666667,38.9,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-02,3,2022-05,46.5,31.1,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-02,3,2022-05,40.36666666666667,33.13,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-02,3,2022-05,47.34166666666667,30.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-02,3,2022-05,53.3,40.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-03,1,2022-04,43.47222222222222,35.93333333333333,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-03,1,2022-04,39.17411111111111,27.8,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-03,1,2022-04,44.175,29.377777777777776,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-03,1,2022-04,48.86666666666667,38.9,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-03,2,2022-05,46.5,31.1,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-03,2,2022-05,40.36666666666667,33.13,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-03,2,2022-05,47.34166666666667,30.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-03,2,2022-05,53.3,40.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-03,3,2022-06,66.53333333333333,29.466666666666665,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-03,3,2022-06,58.5,33.9,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-03,3,2022-06,64.45555555555555,40.0,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-03,3,2022-06,64.85555555555555,29.266666666666666,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-04,1,2022-05,46.5,31.1,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-04,1,2022-05,40.36666666666667,33.13,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-04,1,2022-05,47.34166666666667,30.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-04,1,2022-05,53.3,40.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-04,2,2022-06,66.53333333333333,29.466666666666665,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-04,2,2022-06,58.5,33.9,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-04,2,2022-06,64.45555555555555,40.0,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-04,2,2022-06,64.85555555555555,29.266666666666666,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-04,3,2022-07,90.31111111111112,33.477777777777774,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-04,3,2022-07,56.611111111111114,40.0,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-04,3,2022-07,66.32222222222222,30.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-04,3,2022-07,75.6,40.0,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-04,3,2022-07,61.1,31.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-05,1,2022-06,66.53333333333333,29.466666666666665,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-05,1,2022-06,58.5,33.9,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-05,1,2022-06,64.45555555555555,40.0,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-05,1,2022-06,64.85555555555555,29.266666666666666,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-05,2,2022-07,90.31111111111112,33.477777777777774,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-05,2,2022-07,56.611111111111114,40.0,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-05,2,2022-07,66.32222222222222,30.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-05,2,2022-07,75.6,40.0,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-05,2,2022-07,61.1,31.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-05,3,2022-08,65.25,37.5,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-05,3,2022-08,60.275,34.0,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-05,3,2022-08,63.437555555555555,30.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-05,3,2022-08,68.48,40.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-06,1,2022-07,90.31111111111112,33.477777777777774,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-06,1,2022-07,56.611111111111114,40.0,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-06,1,2022-07,66.32222222222222,30.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-06,1,2022-07,75.6,40.0,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-06,1,2022-07,61.1,31.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-06,2,2022-08,65.25,37.5,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-06,2,2022-08,60.275,34.0,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-06,2,2022-08,63.437555555555555,30.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-06,2,2022-08,68.48,40.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-06,3,2022-09,59.7,36.355555555555554,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-06,3,2022-09,63.20666666666667,40.0,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-06,3,2022-09,63.3,29.666666666666668,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-06,3,2022-09,65.575,40.44,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-07,1,2022-08,65.25,37.5,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-07,1,2022-08,60.275,34.0,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-07,1,2022-08,63.437555555555555,30.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-07,1,2022-08,68.48,40.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-07,2,2022-09,59.7,36.355555555555554,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-07,2,2022-09,63.20666666666667,40.0,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-07,2,2022-09,63.3,29.666666666666668,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-07,2,2022-09,65.575,40.44,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-07,3,2022-10,59.833333333333336,38.333333333333336,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-07,3,2022-10,64.2208888888889,29.377777777777776,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-07,3,2022-10,60.14666666666666,28.9,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-07,3,2022-10,68.9,39.95,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-08,1,2022-09,59.7,36.355555555555554,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-08,1,2022-09,63.20666666666667,40.0,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-08,1,2022-09,63.3,29.666666666666668,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-08,1,2022-09,65.575,40.44,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-08,2,2022-10,59.833333333333336,38.333333333333336,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-08,2,2022-10,64.2208888888889,29.377777777777776,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-08,2,2022-10,60.14666666666666,28.9,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-08,2,2022-10,68.9,39.95,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-08,3,2022-11,57.333333333333336,33.333333333333336,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-08,3,2022-11,62.22222222222222,35.625,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-08,3,2022-11,57.86666666666667,28.9,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-08,3,2022-11,80.0,35.025,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-09,1,2022-10,59.833333333333336,38.333333333333336,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-09,1,2022-10,64.2208888888889,29.377777777777776,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-09,1,2022-10,60.14666666666666,28.9,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-09,1,2022-10,68.9,39.95,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-09,2,2022-11,57.333333333333336,33.333333333333336,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-09,2,2022-11,62.22222222222222,35.625,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-09,2,2022-11,57.86666666666667,28.9,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-09,2,2022-11,80.0,35.025,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-09,3,2022-12,61.46666666666667,34.077777777777776,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-09,3,2022-12,64.2,38.34,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-09,3,2022-12,59.266666666666666,32.55555555555556,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-09,3,2022-12,58.9,35.55555555555556,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-10,1,2022-11,57.333333333333336,33.333333333333336,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-10,1,2022-11,62.22222222222222,35.625,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-10,1,2022-11,57.86666666666667,28.9,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-10,1,2022-11,80.0,35.025,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-10,2,2022-12,61.46666666666667,34.077777777777776,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-10,2,2022-12,64.2,38.34,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-10,2,2022-12,59.266666666666666,32.55555555555556,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-10,2,2022-12,58.9,35.55555555555556,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-10,3,2023-01,63.766666666666666,32.7,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-10,3,2023-01,57.44444444444444,35.3,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-10,3,2023-01,52.86666666666667,34.13333333333333,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-10,3,2023-01,59.455555555555556,41.1,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-10,3,2023-01,52.0,35.13,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-11,1,2022-12,61.46666666666667,34.077777777777776,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-11,1,2022-12,64.2,38.34,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-11,1,2022-12,59.266666666666666,32.55555555555556,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-11,1,2022-12,58.9,35.55555555555556,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-11,2,2023-01,63.766666666666666,32.7,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-11,2,2023-01,57.44444444444444,35.3,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-11,2,2023-01,52.86666666666667,34.13333333333333,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-11,2,2023-01,59.455555555555556,41.1,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-11,2,2023-01,52.0,35.13,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-11,3,2023-02,66.11111111111111,38.05,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-11,3,2023-02,58.07088888888889,34.3,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-11,3,2023-02,60.86088888888889,35.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-11,3,2023-02,60.0,43.3,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-11,3,2023-02,57.0,33.04,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-12,1,2023-01,63.766666666666666,32.7,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-12,1,2023-01,57.44444444444444,35.3,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-12,1,2023-01,52.86666666666667,34.13333333333333,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-12,1,2023-01,59.455555555555556,41.1,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-12,1,2023-01,52.0,35.13,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-12,2,2023-02,66.11111111111111,38.05,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-12,2,2023-02,58.07088888888889,34.3,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-12,2,2023-02,60.86088888888889,35.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-12,2,2023-02,60.0,43.3,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-12,2,2023-02,57.0,33.04,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-12,3,2023-03,71.87777777777778,35.55,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-12,3,2023-03,66.52222222222223,32.425,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-12,3,2023-03,64.1,35.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-12,3,2023-03,58.9,43.85,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-12,3,2023-03,63.0,29.08888888888889,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-01,1,2023-02,66.11111111111111,38.05,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-01,1,2023-02,58.07088888888889,34.3,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-01,1,2023-02,60.86088888888889,35.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-01,1,2023-02,60.0,43.3,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-01,1,2023-02,57.0,33.04,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-01,2,2023-03,71.87777777777778,35.55,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-01,2,2023-03,66.52222222222223,32.425,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-01,2,2023-03,64.1,35.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-01,2,2023-03,58.9,43.85,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-01,2,2023-03,63.0,29.08888888888889,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-01,3,2023-04,77.83333333333333,43.47222222222222,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-01,3,2023-04,67.60333333333334,39.17411111111111,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-01,3,2023-04,60.0,48.86666666666667,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-01,3,2023-04,65.5,28.166666666666668,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-02,1,2023-03,71.87777777777778,35.55,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-02,1,2023-03,66.52222222222223,32.425,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-02,1,2023-03,64.1,35.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-02,1,2023-03,58.9,43.85,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-02,1,2023-03,63.0,29.08888888888889,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-02,2,2023-04,77.83333333333333,43.47222222222222,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-02,2,2023-04,67.60333333333334,39.17411111111111,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-02,2,2023-04,60.0,48.86666666666667,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-02,2,2023-04,65.5,28.166666666666668,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-02,3,2023-05,84.5,46.5,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-02,3,2023-05,70.31166666666667,40.36666666666667,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-02,3,2023-05,69.333,47.34166666666667,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-02,3,2023-05,70.73333333333333,53.3,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-02,3,2023-05,63.0,28.355555555555554,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-03,1,2023-04,77.83333333333333,43.47222222222222,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-03,1,2023-04,67.60333333333334,39.17411111111111,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-03,1,2023-04,60.0,48.86666666666667,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-03,1,2023-04,65.5,28.166666666666668,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-03,2,2023-05,84.5,46.5,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-03,2,2023-05,70.31166666666667,40.36666666666667,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-03,2,2023-05,69.333,47.34166666666667,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-03,2,2023-05,70.73333333333333,53.3,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-03,2,2023-05,63.0,28.355555555555554,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-03,3,2023-06,90.42222222222222,66.53333333333333,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-03,3,2023-06,66.62222222222222,58.5,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-03,3,2023-06,72.12222222222222,27.76,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-03,3,2023-06,83.68888888888888,64.45555555555555,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-03,3,2023-06,64.0,64.85555555555555,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-04,1,2023-05,84.5,46.5,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-04,1,2023-05,70.31166666666667,40.36666666666667,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-04,1,2023-05,69.333,47.34166666666667,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-04,1,2023-05,70.73333333333333,53.3,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-04,1,2023-05,63.0,28.355555555555554,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-04,2,2023-06,90.42222222222222,66.53333333333333,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-04,2,2023-06,66.62222222222222,58.5,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-04,2,2023-06,72.12222222222222,27.76,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-04,2,2023-06,83.68888888888888,64.45555555555555,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-04,2,2023-06,64.0,64.85555555555555,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-04,3,2023-07,90.0,90.31111111111112,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-04,3,2023-07,66.58888888888889,56.611111111111114,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-04,3,2023-07,66.94444444444444,66.32222222222222,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-04,3,2023-07,87.03333333333333,75.6,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-04,3,2023-07,58.25555555555555,61.1,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-05,1,2023-06,90.42222222222222,66.53333333333333,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-05,1,2023-06,66.62222222222222,58.5,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-05,1,2023-06,72.12222222222222,27.76,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-05,1,2023-06,83.68888888888888,64.45555555555555,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-05,1,2023-06,64.0,64.85555555555555,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-05,2,2023-07,90.0,90.31111111111112,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-05,2,2023-07,66.58888888888889,56.611111111111114,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-05,2,2023-07,66.94444444444444,66.32222222222222,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-05,2,2023-07,87.03333333333333,75.6,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-05,2,2023-07,58.25555555555555,61.1,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-05,3,2023-08,51.1,63.437555555555555,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-06,1,2023-07,90.0,90.31111111111112,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-06,1,2023-07,66.58888888888889,56.611111111111114,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-06,1,2023-07,66.94444444444444,66.32222222222222,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-06,1,2023-07,87.03333333333333,75.6,seasonal_naive
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-06,1,2023-07,58.25555555555555,61.1,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-06,2,2023-08,51.1,63.437555555555555,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-06,3,2023-09,57.77777777777778,63.20666666666667,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-06,3,2023-09,50.0,63.3,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-07,1,2023-08,51.1,63.437555555555555,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-07,2,2023-09,57.77777777777778,63.20666666666667,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-07,2,2023-09,50.0,63.3,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-07,3,2023-10,53.333333333333336,64.2208888888889,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-07,3,2023-10,51.1,60.14666666666666,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-08,1,2023-09,57.77777777777778,63.20666666666667,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-08,1,2023-09,50.0,63.3,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-08,2,2023-10,53.333333333333336,64.2208888888889,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-08,2,2023-10,51.1,60.14666666666666,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-09,1,2023-10,53.333333333333336,64.2208888888889,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-09,1,2023-10,51.1,60.14666666666666,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-09,3,2023-12,43.666666666666664,59.266666666666666,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-10,2,2023-12,43.666666666666664,59.266666666666666,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-10,3,2024-01,46.7,57.44444444444444,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-10,3,2024-01,45.55711111111111,52.86666666666667,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-11,1,2023-12,43.666666666666664,59.266666666666666,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-11,2,2024-01,46.7,57.44444444444444,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-11,2,2024-01,45.55711111111111,52.86666666666667,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-11,3,2024-02,45.0,66.11111111111111,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-11,3,2024-02,42.0,60.86088888888889,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-12,1,2024-01,46.7,57.44444444444444,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-12,1,2024-01,45.55711111111111,52.86666666666667,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-12,2,2024-02,45.0,66.11111111111111,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-12,2,2024-02,42.0,60.86088888888889,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-12,3,2024-03,46.25,71.87777777777778,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-12,3,2024-03,39.855555555555554,64.1,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-01,1,2024-02,45.0,66.11111111111111,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-01,1,2024-02,42.0,60.86088888888889,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-01,2,2024-03,46.25,71.87777777777778,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-01,2,2024-03,39.855555555555554,64.1,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-01,3,2024-04,45.0,77.83333333333333,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-01,3,2024-04,52.0,67.60333333333334,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-01,3,2024-04,36.4,44.175,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-02,1,2024-03,46.25,71.87777777777778,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-02,1,2024-03,39.855555555555554,64.1,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-02,2,2024-04,45.0,77.83333333333333,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-02,2,2024-04,52.0,67.60333333333334,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-02,2,2024-04,36.4,44.175,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-02,3,2024-05,44.0,84.5,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-02,3,2024-05,40.644444444444446,70.31166666666667,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-02,3,2024-05,37.87777777777778,69.333,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-03,1,2024-04,45.0,77.83333333333333,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-03,1,2024-04,52.0,67.60333333333334,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-03,1,2024-04,36.4,44.175,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-03,2,2024-05,44.0,84.5,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-03,2,2024-05,40.644444444444446,70.31166666666667,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-03,2,2024-05,37.87777777777778,69.333,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-03,3,2024-06,44.0,90.42222222222222,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-03,3,2024-06,37.87777777777778,72.12222222222222,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-04,1,2024-05,44.0,84.5,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-04,1,2024-05,40.644444444444446,70.31166666666667,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-04,1,2024-05,37.87777777777778,69.333,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-04,2,2024-06,44.0,90.42222222222222,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-04,2,2024-06,37.87777777777778,72.12222222222222,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-04,3,2024-07,42.5,90.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-04,3,2024-07,38.888888888888886,66.58888888888889,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-05,1,2024-06,44.0,90.42222222222222,seasonal_naive
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-05,1,2024-06,37.87777777777778,72.12222222222222,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-05,2,2024-07,42.5,90.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-05,2,2024-07,38.888888888888886,66.58888888888889,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-05,3,2024-08,42.077777777777776,65.25,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-06,1,2024-07,42.5,90.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-06,1,2024-07,38.888888888888886,66.58888888888889,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-06,2,2024-08,42.077777777777776,65.25,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-06,3,2024-09,40.62222222222222,59.7,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-07,1,2024-08,42.077777777777776,65.25,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-07,2,2024-09,40.62222222222222,59.7,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-08,1,2024-09,40.62222222222222,59.7,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-09,3,2024-12,43.89,64.2,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-09,3,2024-12,43.33,58.9,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-10,2,2024-12,43.89,64.2,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-10,2,2024-12,43.33,58.9,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-10,3,2025-01,44.0,46.7,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-10,3,2025-01,49.07,59.455555555555556,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-11,1,2024-12,43.89,64.2,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-11,1,2024-12,43.33,58.9,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-11,2,2025-01,44.0,46.7,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-11,2,2025-01,49.07,59.455555555555556,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-11,3,2025-02,43.214333333333336,45.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-11,3,2025-02,47.336,58.07088888888889,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-11,3,2025-02,48.89,60.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-12,1,2025-01,44.0,46.7,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-12,1,2025-01,49.07,59.455555555555556,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-12,2,2025-02,43.214333333333336,45.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-12,2,2025-02,47.336,58.07088888888889,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-12,2,2025-02,48.89,60.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-12,3,2025-03,49.629999999999995,66.52222222222223,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-12,3,2025-03,48.89,58.9,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-01,1,2025-02,43.214333333333336,45.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-01,1,2025-02,47.336,58.07088888888889,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-01,1,2025-02,48.89,60.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-01,2,2025-03,49.629999999999995,66.52222222222223,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-01,2,2025-03,48.89,58.9,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-01,3,2025-04,47.5,45.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-01,3,2025-04,50.0,60.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-02,1,2025-03,49.629999999999995,66.52222222222223,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-02,1,2025-03,48.89,58.9,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-02,2,2025-04,47.5,45.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-02,2,2025-04,50.0,60.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-02,3,2025-05,55.0,44.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-02,3,2025-05,52.959999999999994,40.644444444444446,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-02,3,2025-05,61.11,70.73333333333333,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-03,1,2025-04,47.5,45.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-03,1,2025-04,50.0,60.0,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-03,2,2025-05,55.0,44.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-03,2,2025-05,52.959999999999994,40.644444444444446,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-03,2,2025-05,61.11,70.73333333333333,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-03,3,2025-06,62.5,44.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-03,3,2025-06,62.22,83.68888888888888,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-04,1,2025-05,55.0,44.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-04,1,2025-05,52.959999999999994,40.644444444444446,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-04,1,2025-05,61.11,70.73333333333333,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-04,2,2025-06,62.5,44.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-04,2,2025-06,62.22,83.68888888888888,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-04,3,2025-07,52.775,38.888888888888886,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-04,3,2025-07,58.89,87.03333333333333,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-05,1,2025-06,62.5,44.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-05,1,2025-06,62.22,83.68888888888888,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-05,2,2025-07,52.775,38.888888888888886,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-05,2,2025-07,58.89,87.03333333333333,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-05,3,2025-08,48.89,60.275,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-05,3,2025-08,57.78,68.48,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-06,1,2025-07,52.775,38.888888888888886,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-06,1,2025-07,58.89,87.03333333333333,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-06,2,2025-08,48.89,60.275,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-06,2,2025-08,57.78,68.48,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-06,3,2025-09,48.89,65.575,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-07,1,2025-08,48.89,60.275,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-07,1,2025-08,57.78,68.48,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-07,2,2025-09,48.89,65.575,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-08,1,2025-09,48.89,65.575,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-08,3,2025-11,44.44444444444444,80.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-09,2,2025-11,44.44444444444444,80.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-09,3,2025-12,50.36666666666667,43.33,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-10,1,2025-11,44.44444444444444,80.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-10,2,2025-12,50.36666666666667,43.33,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-10,3,2026-01,48.34,44.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-10,3,2026-01,48.89,49.07,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-11,1,2025-12,50.36666666666667,43.33,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-11,2,2026-01,48.34,44.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-11,2,2026-01,48.89,49.07,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-11,3,2026-02,51.11,47.336,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-11,3,2026-02,57.78,48.89,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-12,1,2026-01,48.34,44.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-12,1,2026-01,48.89,49.07,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-12,2,2026-02,51.11,47.336,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-12,2,2026-02,57.78,48.89,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-12,3,2026-03,50.0,49.629999999999995,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-12,3,2026-03,57.78,48.89,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-01,1,2026-02,51.11,47.336,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-01,1,2026-02,57.78,48.89,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-01,2,2026-03,50.0,49.629999999999995,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-01,2,2026-03,57.78,48.89,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-01,3,2026-04,58.334999999999994,50.0,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-02,1,2026-03,50.0,49.629999999999995,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-02,1,2026-03,57.78,48.89,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-02,2,2026-04,58.334999999999994,50.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-02,3,2026-05,60.888,61.11,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-03,1,2026-04,58.334999999999994,50.0,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-03,2,2026-05,60.888,61.11,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-03,3,2026-06,62.22,62.22,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-04,1,2026-05,60.888,61.11,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-04,2,2026-06,62.22,62.22,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-04,3,2026-07,47.78,52.775,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-04,3,2026-07,58.33255555555556,58.89,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-05,1,2026-06,62.22,62.22,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-05,2,2026-07,47.78,52.775,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-05,2,2026-07,58.33255555555556,58.89,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2026-05,3,2026-08,70.0,42.077777777777776,seasonal_naive
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-05,3,2026-08,42.553333333333335,48.89,seasonal_naive
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-05,3,2026-08,51.11166666666667,57.78,seasonal_naive
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-01,1,2022-02,38.05,34.502640232187346,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-01,1,2022-02,34.3,35.26145679557834,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-01,1,2022-02,35.0,34.27220605331106,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-01,1,2022-02,43.3,41.973578750999984,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-01,2,2022-03,35.55,34.34130407685836,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-01,2,2022-03,32.425,34.98683125277807,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-01,2,2022-03,35.0,35.704306040102004,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-01,2,2022-03,43.85,41.18434014267766,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-01,3,2022-04,43.47222222222222,34.989077750973614,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-01,3,2022-04,39.17411111111111,37.045061093354164,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-01,3,2022-04,44.175,37.58197477235883,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-01,3,2022-04,48.86666666666667,43.290670921074636,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-02,1,2022-03,35.55,39.95983547781224,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-02,1,2022-03,32.425,33.9957028886767,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-02,1,2022-03,35.0,36.610860685651474,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-02,1,2022-03,43.85,43.38885470019325,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-02,2,2022-04,43.47222222222222,40.713590471698645,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-02,2,2022-04,39.17411111111111,35.99562593490221,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-02,2,2022-04,44.175,38.53620460056325,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-02,2,2022-04,48.86666666666667,45.60793311149712,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-02,3,2022-05,46.5,40.74502921482782,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-02,3,2022-05,40.36666666666667,37.31036802684106,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-02,3,2022-05,47.34166666666667,37.654321912699004,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-02,3,2022-05,53.3,44.12730523932885,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-03,1,2022-04,43.47222222222222,38.03858452743461,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-03,1,2022-04,39.17411111111111,34.02793501280478,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-03,1,2022-04,44.175,38.53620460056325,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-03,1,2022-04,48.86666666666667,46.18724865910275,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-03,2,2022-05,46.5,38.067957650121656,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-03,2,2022-05,40.36666666666667,35.270807092429195,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-03,2,2022-05,47.34166666666667,37.654321912699004,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-03,2,2022-05,53.3,44.68781373544042,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-03,3,2022-06,66.53333333333333,36.01132600912916,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-03,3,2022-06,58.5,32.64149347452349,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-03,3,2022-06,64.45555555555555,44.18882531444533,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-03,3,2022-06,64.85555555555555,20.618114299199352,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-04,1,2022-05,46.5,46.55129998627941,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-04,1,2022-05,40.36666666666667,42.61225955335041,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-04,1,2022-05,47.34166666666667,47.525133442670814,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-04,1,2022-05,53.3,49.800330624215626,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-04,2,2022-06,66.53333333333333,44.03635349608308,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-04,2,2022-06,58.5,39.43566668322565,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-04,2,2022-06,64.45555555555555,49.24425534851908,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-04,2,2022-06,64.85555555555555,20.618114299199352,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-04,3,2022-07,90.31111111111112,41.71489777569217,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-04,3,2022-07,56.611111111111114,39.37470090464235,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-04,3,2022-07,66.32222222222222,43.295732466515446,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-04,3,2022-07,75.6,47.92900452635688,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-04,3,2022-07,61.1,20.05350925462106,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-05,1,2022-06,66.53333333333333,47.10342220603392,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-05,1,2022-06,58.5,40.63618462878227,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-05,1,2022-06,64.45555555555555,53.711844680956354,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-05,1,2022-06,64.85555555555555,20.618114299199352,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-05,2,2022-07,90.31111111111112,44.62028043227392,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-05,2,2022-07,56.611111111111114,40.573362903098044,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-05,2,2022-07,66.32222222222222,46.399369202466374,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-05,2,2022-07,75.6,52.2772702848872,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-05,2,2022-07,61.1,20.05350925462106,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-05,3,2022-08,65.25,45.550722555502375,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-05,3,2022-08,60.275,38.50792146876072,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-05,3,2022-08,63.437555555555555,45.6547276185453,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-05,3,2022-08,68.48,51.42404574399537,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-06,1,2022-07,90.31111111111112,63.843784761877245,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-06,1,2022-07,56.611111111111114,58.79954739466314,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-06,1,2022-07,66.32222222222222,46.399369202466374,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-06,1,2022-07,75.6,63.21877109081314,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-06,1,2022-07,61.1,64.70554644512058,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-06,2,2022-08,65.25,65.17508402923494,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-06,2,2022-08,60.275,55.80627760336503,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-06,2,2022-08,63.437555555555555,45.6547276185453,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-06,2,2022-08,68.48,62.186968805694626,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-06,3,2022-09,59.7,61.79185706496057,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-06,3,2022-09,63.20666666666667,58.10612327418648,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-06,3,2022-09,63.3,44.111498723209806,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-06,3,2022-09,65.575,61.413912353783616,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-07,1,2022-08,65.25,88.46744872906173,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-07,1,2022-08,60.275,54.00436550601042,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-07,1,2022-08,63.437555555555555,63.95894364961495,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-07,1,2022-08,68.48,72.93917182450375,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-07,2,2022-09,59.7,83.87511927588503,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-07,2,2022-09,63.20666666666667,56.229952152322916,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-07,2,2022-09,63.3,61.79699251982382,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-07,2,2022-09,65.575,72.03245296589273,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-07,3,2022-10,59.833333333333336,86.7789548111987,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-07,3,2022-10,64.2208888888889,55.090413756624656,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-07,3,2022-10,60.14666666666666,64.45633485796274,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-07,3,2022-10,68.9,75.50394034154004,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-08,1,2022-09,59.7,60.59998006245507,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-08,1,2022-09,63.20666666666667,59.86917231370239,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-08,1,2022-09,63.3,59.1091494643712,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-08,1,2022-09,65.575,65.24844416804676,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-08,2,2022-10,59.833333333333336,62.6980083819838,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-08,2,2022-10,64.2208888888889,58.65588263518147,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-08,2,2022-10,60.14666666666666,61.65282444485765,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-08,2,2022-10,68.9,68.39298723000877,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-08,3,2022-11,57.333333333333336,64.30270612371818,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-08,3,2022-11,62.22222222222222,61.88268947039947,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-08,3,2022-11,57.86666666666667,62.6500397537771,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-08,3,2022-11,80.0,70.08977258273886,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-09,1,2022-10,59.833333333333336,57.36507433570012,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-09,1,2022-10,64.2208888888889,61.508798370154075,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-09,1,2022-10,60.14666666666666,61.51913883159888,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-09,1,2022-10,68.9,65.49167841132922,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-09,2,2022-11,57.333333333333336,58.83328054537894,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-09,2,2022-11,62.22222222222222,64.89255123670482,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-09,2,2022-11,57.86666666666667,62.51419181719699,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-09,2,2022-11,80.0,67.11648418681514,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-09,3,2022-12,61.46666666666667,58.07534796951915,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-09,3,2022-12,64.2,62.43413393652916,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-09,3,2022-12,59.266666666666666,63.88647342745064,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-09,3,2022-12,58.9,65.53734412714348,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-10,1,2022-11,57.333333333333336,58.96467815687057,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-10,1,2022-11,62.22222222222222,65.93382537742247,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-10,1,2022-11,57.86666666666667,59.40000406263836,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-10,1,2022-11,80.0,70.51964560383627,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-10,2,2022-12,61.46666666666667,58.20505282260574,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-10,2,2022-12,64.2,63.43596000018742,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-10,2,2022-12,59.266666666666666,60.70392451421375,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-10,2,2022-12,58.9,68.86043477484081,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-10,3,2023-01,63.766666666666666,62.29439230480897,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-10,3,2023-01,57.44444444444444,64.30604253646726,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-10,3,2023-01,52.86666666666667,61.897293126352565,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-10,3,2023-01,59.455555555555556,69.9371805298824,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-10,3,2023-01,52.0,62.796911709669985,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-11,1,2022-12,61.46666666666667,55.77308682723224,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-11,1,2022-12,64.2,61.461721696825805,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-11,1,2022-12,59.266666666666666,58.40280035284587,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-11,1,2022-12,58.9,79.95406069647699,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-11,2,2023-01,63.766666666666666,59.6915625427696,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-11,2,2023-01,57.44444444444444,62.30472573898015,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-11,2,2023-01,52.86666666666667,59.55093153810024,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-11,2,2023-01,59.455555555555556,81.20427347446432,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-11,2,2023-01,52.0,62.796911709669985,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-11,3,2023-02,66.11111111111111,60.86507548052993,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-11,3,2023-02,58.07088888888889,62.05329110502456,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-11,3,2023-02,60.86088888888889,58.189373379564806,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-11,3,2023-02,60.0,81.88216181828237,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-11,3,2023-02,57.0,61.76893651328436,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-12,1,2023-01,63.766666666666666,63.99490774934136,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-12,1,2023-01,57.44444444444444,64.28512594996917,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-12,1,2023-01,52.86666666666667,60.99167988176395,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-12,1,2023-01,59.455555555555556,59.786646345574354,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-12,1,2023-01,52.0,62.796911709669985,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-12,2,2023-02,66.11111111111111,65.25302278261465,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-12,2,2023-02,58.07088888888889,64.02569928657714,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-12,2,2023-02,60.86088888888889,59.597180800038146,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-12,2,2023-02,60.0,60.28574163871039,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-12,2,2023-02,57.0,61.76893651328436,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2022-12,3,2023-03,71.87777777777778,64.08179775531372,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2022-12,3,2023-03,66.52222222222223,63.45362827330872,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2022-12,3,2023-03,64.1,61.8086991617862,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2022-12,3,2023-03,58.9,59.0598783657011,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2022-12,3,2023-03,63.0,59.8024388695265,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-01,1,2023-02,66.11111111111111,67.69470313619404,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-01,1,2023-02,58.07088888888889,57.28848482374589,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-01,1,2023-02,60.86088888888889,53.161489735017156,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-01,1,2023-02,60.0,60.85436776244846,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-01,1,2023-02,57.0,52.569307670880306,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-01,2,2023-03,71.87777777777778,66.47965244355484,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-01,2,2023-03,66.52222222222223,56.77661096798305,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-01,2,2023-03,64.1,55.134193965462835,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-01,2,2023-03,58.9,59.616941923196876,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-01,2,2023-03,63.0,50.89569265491616,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-01,3,2023-04,77.83333333333333,68.84054357910597,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-01,3,2023-04,67.60333333333334,60.817192205938355,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-01,3,2023-04,60.0,62.860472980850915,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-01,3,2023-04,65.5,54.48440977377521,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-02,1,2023-03,71.87777777777778,68.9238424880905,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-02,1,2023-03,66.52222222222223,57.395772539815724,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-02,1,2023-03,64.1,63.47129986589814,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-02,1,2023-03,58.9,60.162864209542725,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-02,1,2023-03,63.0,55.789509256350414,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-02,2,2023-04,77.83333333333333,71.37153411668942,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-02,2,2023-04,67.60333333333334,61.48041721494625,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-02,2,2023-04,60.0,63.4360968223874,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-02,2,2023-04,65.5,59.72329532894591,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-02,3,2023-05,84.5,70.78879178895879,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-02,3,2023-05,70.31166666666667,62.939956970318285,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-02,3,2023-05,69.333,65.45956139783108,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-02,3,2023-05,70.73333333333333,61.4437262172059,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-02,3,2023-05,63.0,60.54947878629362,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-03,1,2023-04,77.83333333333333,77.5970511261956,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-03,1,2023-04,67.60333333333334,70.42795546169303,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-03,1,2023-04,60.0,62.273101713976956,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-03,1,2023-04,65.5,66.00995799515074,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-03,2,2023-05,84.5,76.96347799710495,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-03,2,2023-05,70.31166666666667,72.09990899653214,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-03,2,2023-05,69.333,68.94342100821682,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-03,2,2023-05,70.73333333333333,60.31725790322379,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-03,2,2023-05,63.0,66.92310813221927,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-03,3,2023-06,90.42222222222222,74.39921036903198,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-03,3,2023-06,66.62222222222222,68.5088959861986,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-03,3,2023-06,72.12222222222222,63.62230370424186,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-03,3,2023-06,83.68888888888888,60.13323979777996,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-03,3,2023-06,64.0,64.62394034077408,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-04,1,2023-05,84.5,83.34041789607669,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-04,1,2023-05,70.31166666666667,73.27166799859704,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-04,1,2023-05,69.333,68.94342100821682,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-04,1,2023-05,70.73333333333333,61.4437262172059,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-04,1,2023-05,63.0,69.57878702635495,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-04,2,2023-06,90.42222222222222,80.56368351137253,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-04,2,2023-06,66.62222222222222,69.62229427907603,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-04,2,2023-06,72.12222222222222,63.62230370424186,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-04,2,2023-06,83.68888888888888,61.256271440862434,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-04,2,2023-06,64.0,67.18838241778893,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-04,3,2023-07,90.0,76.22634977548127,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-04,3,2023-07,66.58888888888889,67.78860680686958,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-04,3,2023-07,66.94444444444444,62.824141507722466,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-04,3,2023-07,87.03333333333333,59.510236723157135,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-04,3,2023-07,58.25555555555555,65.06092263010301,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-05,1,2023-06,90.42222222222222,87.46421314832094,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-05,1,2023-06,66.62222222222222,72.41151148245599,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-05,1,2023-06,72.12222222222222,68.81630550274885,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-05,1,2023-06,83.68888888888888,72.2143377763945,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-05,1,2023-06,64.0,64.62394034077408,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-05,2,2023-07,90.0,82.75537331085441,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-05,2,2023-07,66.58888888888889,70.50436258965057,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-05,2,2023-07,66.94444444444444,67.95298288853232,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-05,2,2023-07,87.03333333333333,70.15595684807747,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-05,2,2023-07,58.25555555555555,62.577681308343344,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-05,3,2023-08,51.1,66.82335674539269,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-06,1,2023-07,90.0,88.55532255144419,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-06,1,2023-07,66.58888888888889,66.80480686586623,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-06,1,2023-07,66.94444444444444,70.68668790546482,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2023-06,1,2023-07,87.03333333333333,83.0057598145962,seasonal_mean_log_change
+white_maize_wholesale,5672.0,Kongowea (Mombasa),2023-06,1,2023-07,58.25555555555555,63.57097783704721,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-06,2,2023-08,51.1,69.51161762546036,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-06,3,2023-09,57.77777777777778,66.3851606511009,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-06,3,2023-09,50.0,67.53086281251933,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-07,1,2023-08,51.1,64.52125961999671,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-07,2,2023-09,57.77777777777778,66.35194592762637,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-07,2,2023-09,50.0,62.682706585338,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-07,3,2023-10,53.333333333333336,64.9648472618824,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-07,3,2023-10,51.1,64.96326343867005,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-08,1,2023-09,57.77777777777778,66.35194592762637,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-08,1,2023-09,50.0,47.84693237941402,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-08,2,2023-10,53.333333333333336,64.9648472618824,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-08,2,2023-10,51.1,49.58772590115246,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-09,1,2023-10,53.333333333333336,56.36863102983288,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-09,1,2023-10,51.1,48.52027974672452,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-09,3,2023-12,43.666666666666664,50.516202752621645,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-10,2,2023-12,43.666666666666664,51.62755921317932,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-10,3,2024-01,46.7,53.00498321237422,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-10,3,2024-01,45.55711111111111,52.08848774160413,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-11,1,2023-12,43.666666666666664,51.62755921317932,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-11,2,2024-01,46.7,53.00498321237422,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-11,2,2024-01,45.55711111111111,52.08848774160413,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-11,3,2024-02,45.0,95.41106919623255,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-11,3,2024-02,42.0,51.85040954300365,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2023-12,1,2024-01,46.7,53.00498321237422,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-12,1,2024-01,45.55711111111111,44.51136264938122,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-12,2,2024-02,45.0,95.41106919623255,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-12,2,2024-02,42.0,44.30791683061629,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2023-12,3,2024-03,46.25,94.06100240086784,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2023-12,3,2024-03,39.855555555555554,45.567655288534304,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-01,1,2024-02,45.0,95.41106919623255,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-01,1,2024-02,42.0,46.22612267528832,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-01,2,2024-03,46.25,94.06100240086784,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-01,2,2024-03,39.855555555555554,47.540398512654214,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-01,3,2024-04,45.0,97.1797127205645,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-01,3,2024-04,52.0,49.32300278968948,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-01,3,2024-04,36.4,50.61869129423283,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-02,1,2024-03,46.25,47.03050120043392,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-02,1,2024-03,39.855555555555554,43.8284318042391,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-02,2,2024-04,45.0,48.58985636028225,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-02,2,2024-04,52.0,49.32300278968948,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-02,2,2024-04,36.4,46.66637068300109,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-02,3,2024-05,44.0,48.22314820361066,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-02,3,2024-05,40.644444444444446,50.48537140417883,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-02,3,2024-05,37.87777777777778,45.1735363860391,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-03,1,2024-04,45.0,49.93957459251231,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-03,1,2024-04,52.0,49.32300278968948,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-03,1,2024-04,36.4,44.28366974601188,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-03,2,2024-05,44.0,49.562680098155404,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-03,2,2024-05,40.644444444444446,50.48537140417883,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-03,2,2024-05,37.87777777777778,42.86705688273076,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-03,3,2024-06,44.0,47.966177991318,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-03,3,2024-06,37.87777777777778,39.69134185820369,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-04,1,2024-05,44.0,48.22314820361066,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-04,1,2024-05,40.644444444444446,56.214974582811536,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-04,1,2024-05,37.87777777777778,39.15039820123389,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-04,2,2024-06,44.0,46.669794802363455,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-04,2,2024-06,37.87777777777778,36.2500239552482,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-04,3,2024-07,42.5,44.11054691547362,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-04,3,2024-07,38.888888888888886,52.13258248591712,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-05,1,2024-06,44.0,45.63268825119982,seasonal_mean_log_change
+white_maize_wholesale,5669.0,Wakulima (Nakuru),2024-05,1,2024-06,37.87777777777778,37.72171296197837,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-05,2,2024-07,42.5,43.130312539574206,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-05,2,2024-07,38.888888888888886,40.74807408835146,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-05,3,2024-08,42.077777777777776,42.3368310658405,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-06,1,2024-07,42.5,43.130312539574206,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-06,1,2024-07,38.888888888888886,40.74807408835146,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-06,2,2024-08,42.077777777777776,42.3368310658405,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-06,3,2024-09,40.62222222222222,40.82840344873926,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-07,1,2024-08,42.077777777777776,40.89353000677776,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-07,2,2024-09,40.62222222222222,39.43652605844132,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-08,1,2024-09,40.62222222222222,39.044738348579685,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-09,3,2024-12,43.89,38.525364777800434,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-09,3,2024-12,43.33,85.22908126108217,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-10,2,2024-12,43.89,38.525364777800434,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-10,2,2024-12,43.33,85.22908126108217,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-10,3,2025-01,44.0,38.64946692568953,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-10,3,2025-01,49.07,88.3084469969795,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-11,1,2024-12,43.89,38.525364777800434,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-11,1,2024-12,43.33,85.22908126108217,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-11,2,2025-01,44.0,38.64946692568953,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-11,2,2025-01,49.07,88.3084469969795,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-11,3,2025-02,43.214333333333336,43.064551726101996,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-11,3,2025-02,47.336,38.812545155206145,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-11,3,2025-02,48.89,88.99704018484395,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-12,1,2025-01,44.0,43.61978837233321,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-12,1,2025-01,49.07,43.96482200359006,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2024-12,2,2025-02,43.214333333333336,43.064551726101996,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-12,2,2025-02,47.336,43.803838462165665,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-12,2,2025-02,48.89,44.30764172205234,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2024-12,3,2025-03,49.629999999999995,43.736839101123984,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2024-12,3,2025-03,48.89,43.39343090094836,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-01,1,2025-02,43.214333333333336,43.064551726101996,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-01,1,2025-02,47.336,43.913622518461814,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-01,1,2025-02,48.89,50.17715161091872,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-01,2,2025-03,49.629999999999995,43.84645523922204,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-01,2,2025-03,48.89,49.14183370204329,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-01,3,2025-04,47.5,43.594936968757494,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-01,3,2025-04,50.0,51.75972174485116,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-02,1,2025-03,49.629999999999995,47.17081375463214,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-02,1,2025-03,48.89,48.961570199569934,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-02,2,2025-04,47.5,46.37673752823273,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-02,2,2025-04,50.0,51.56985522938197,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-02,3,2025-05,55.0,46.074389772732225,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-02,3,2025-05,52.959999999999994,50.20591523490111,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-02,3,2025-05,61.11,50.53854923499554,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-03,1,2025-04,47.5,46.37673752823273,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-03,1,2025-04,50.0,51.56985522938197,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-03,2,2025-05,55.0,46.074389772732225,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-03,2,2025-05,52.959999999999994,52.63899723483485,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-03,2,2025-05,61.11,50.53854923499554,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-03,3,2025-06,62.5,44.72724193392356,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-03,3,2025-06,62.22,50.40678168982538,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-04,1,2025-05,55.0,50.64369493620436,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-04,1,2025-05,52.959999999999994,52.63899723483485,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-04,1,2025-05,61.11,51.685977945383044,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-04,2,2025-06,62.5,49.162947290514,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-04,2,2025-06,62.22,51.55121874598627,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-04,3,2025-07,52.775,49.75653978415512,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-04,3,2025-07,58.89,49.73027563453727,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2025-05,1,2025-06,62.5,56.925517915332,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-05,1,2025-06,62.22,63.00589955134442,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-05,2,2025-07,52.775,53.095030162580194,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-05,2,2025-07,58.89,60.78034288053146,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-05,3,2025-08,48.89,50.84889726930338,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-05,3,2025-08,57.78,58.71172552051002,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-06,1,2025-07,52.775,53.095030162580194,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-06,1,2025-07,58.89,61.88435499961818,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-06,2,2025-08,48.89,50.84889726930338,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-06,2,2025-08,57.78,59.778163342924785,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-06,3,2025-09,48.89,59.30499623276959,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-07,1,2025-08,48.89,50.671271778464614,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-07,1,2025-08,57.78,56.5788498756805,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-07,2,2025-09,48.89,56.13100655975251,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-08,1,2025-09,48.89,55.073010002080146,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-08,3,2025-11,44.44444444444444,59.673468837539865,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-09,2,2025-11,44.44444444444444,50.4921407315217,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-09,3,2025-12,50.36666666666667,47.876481610735055,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-10,1,2025-11,44.44444444444444,50.4921407315217,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-10,2,2025-12,50.36666666666667,47.876481610735055,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-10,3,2026-01,48.34,48.615368360604386,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-10,3,2026-01,48.89,49.97092439209352,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-11,1,2025-12,50.36666666666667,43.5230850305539,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-11,2,2026-01,48.34,48.615368360604386,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-11,2,2026-01,48.89,45.427080650070245,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-11,3,2026-02,51.11,48.9871314273167,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-11,3,2026-02,57.78,45.373476413501635,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-12,1,2026-01,48.34,48.615368360604386,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-12,1,2026-01,48.89,51.48023914669211,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-12,2,2026-02,51.11,48.9871314273167,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-12,2,2026-02,57.78,51.41949214560073,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2025-12,3,2026-03,50.0,48.84987717479311,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2025-12,3,2026-03,57.78,50.43629951581547,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-01,1,2026-02,51.11,48.43603872359356,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-01,1,2026-02,57.78,49.911958391762134,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-01,2,2026-03,50.0,48.30032854631825,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-01,2,2026-03,57.78,48.957591330143316,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-01,3,2026-04,58.334999999999994,51.47616128488211,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-02,1,2026-03,50.0,51.068055275182566,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-02,1,2026-03,57.78,57.859881919731656,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-02,2,2026-04,58.334999999999994,60.83642051627098,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-02,3,2026-05,60.888,60.356839809722835,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-03,1,2026-04,58.334999999999994,60.83642051627098,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-03,2,2026-05,60.888,60.356839809722835,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-03,3,2026-06,62.22,59.52587248215234,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-04,1,2026-05,60.888,60.93659138629597,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-04,2,2026-06,62.22,60.097642285329805,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-04,3,2026-07,47.78,50.12748315953569,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-04,3,2026-07,58.33255555555556,57.860666984854866,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-05,1,2026-06,62.22,62.727783379946196,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-05,2,2026-07,47.78,50.12748315953569,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-05,2,2026-07,58.33255555555556,60.39290805475004,seasonal_mean_log_change
+white_maize_wholesale,185.0,Eldoret town (Uasin Gishu),2026-05,3,2026-08,70.0,60.23299760474394,seasonal_mean_log_change
+white_maize_wholesale,4626.0,Kangemi (Nairobi),2026-05,3,2026-08,42.553333333333335,47.911540554787116,seasonal_mean_log_change
+white_maize_wholesale,5671.0,Kibuye (Kisumu),2026-05,3,2026-08,51.11166666666667,58.57529486315192,seasonal_mean_log_change

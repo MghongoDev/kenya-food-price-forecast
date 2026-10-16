@@ -1,0 +1,6 @@
+market_id,market,first_obs,last_obs,n_observed,share,longest_gap_months
+4626,Kangemi (Nairobi),2016-01,2026-08,104,0.8125,4
+185,Eldoret town (Uasin Gishu),2016-01,2026-08,102,0.796875,13
+5669,Wakulima (Nakuru),2016-01,2024-06,99,0.7734375,1
+5671,Kibuye (Kisumu),2016-01,2026-08,95,0.7421875,16
+5672,Kongowea (Mombasa),2016-01,2023-07,69,0.5390625,9
