@@ -114,6 +114,38 @@ def naive_momentum_outcomes(
     return out
 
 
+COST_RATIOS = (1.0, 5.0, 10.0)  # false-alarm : missed-spike
+COST_ASSUMPTION = (
+    "costs are assumptions, not measurements; real values would need "
+    "to come from a response agency (e.g. WFP Kenya or the National "
+    "Drought Management Authority) holding the response-cost data"
+)
+
+
+def expected_costs(pr_curve: pd.DataFrame, ratios: tuple[float, ...] = COST_RATIOS) -> pd.DataFrame:
+    """Expected cost per threshold per ratio: (fp * 1 + fn * ratio) / n.
+    Costs are assumptions (see COST_ASSUMPTION). Issue #12."""
+    rows = []
+    for ratio in ratios:
+        for _, r in pr_curve.iterrows():
+            cost = (r["fp"] * 1 + r["fn"] * ratio) / r["n"]
+            rows.append({
+                "cost_ratio": ratio,
+                "alert_threshold": r["alert_threshold"],
+                "expected_cost": cost,
+                "assumption": COST_ASSUMPTION,
+            })
+    return pd.DataFrame(rows)
+
+
+def pick_threshold(costs: pd.DataFrame, ratio: float) -> float:
+    """The alert threshold that minimises expected cost at the given ratio."""
+    sub = costs[costs["cost_ratio"] == ratio]
+    if sub.empty:
+        return float("nan")
+    return float(sub.loc[sub["expected_cost"].idxmin(), "alert_threshold"])
+
+
 def _pr_from_outcomes(outcomes: pd.DataFrame, outcome_col: str) -> tuple[int, int, int]:
     """Count TP/FP/FN from an outcome column."""
     tp = int((outcomes[outcome_col] == "TP").sum())
@@ -215,4 +247,14 @@ if __name__ == "__main__":
         print("verdict: the model beats simple momentum on both axes")
     else:
         print("verdict: the model does not dominate momentum - higher recall, lower precision")
-        print("  the right operating point depends on the cost ratio (ticket #12)")
+        print("  the right operating point depends on the cost ratio (below)")
+
+    # cost analysis: expected cost across ratios, pick threshold per ratio
+    costs = expected_costs(curve)
+    costs.to_csv(processed / "alert_costs.csv", index=False)
+    print("\n== expected cost (costs are assumptions, not measurements)")
+    for ratio in COST_RATIOS:
+        t = pick_threshold(costs, ratio)
+        sub = costs[(costs["cost_ratio"] == ratio) & (costs["alert_threshold"] == t)]
+        print(f"  ratio 1:{ratio:.0f} -> threshold {t:.2f}  "
+              f"expected cost {sub['expected_cost'].iloc[0]:.3f}")
