@@ -23,7 +23,10 @@ backtest-model:
 conformal:
 	$(PY) -m src.conformal
 
+alerts:
+	$(PY) -m src.alerts
+
 test:
 	$(PY) -m pytest -q
 
-all: data rain backtest-baselines backtest-model conformal test
+all: data rain backtest-baselines backtest-model conformal alerts test

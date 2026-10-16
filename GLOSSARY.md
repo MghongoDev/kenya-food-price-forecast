@@ -67,3 +67,15 @@ The share of scored forecasts whose stated 80 percent interval contains the obse
 
 **Interval half-width**
 The distance added on either side of the point forecast on the log scale, set by conformal calibration.
+
+**Precision (alert)**
+Of all alerts fired, the share that were followed by a spike. High precision means few false alarms.
+
+**Recall (alert)**
+Of all spikes that happened, the share that were preceded by an alert. High recall means few missed spikes.
+
+**Alert outcome**
+One of four results at a (market, origin, horizon): TP (alert fired, spike followed), FP (alert fired, no spike — false alarm), FN (no alert, spike happened — missed spike), TN (no alert, no spike).
+
+**Lead time**
+How many months before a spike the alert fired. With per-horizon alert rules, the lead time is the horizon of the true positive.
