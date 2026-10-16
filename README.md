@@ -85,6 +85,13 @@ Design decisions live in `docs/adr/`. Terminology in `GLOSSARY.md`. Phase checkp
 - Prices before 2020 are spliced from two series names.
 - The latest actual price reaches about one month back (publication lag).
 
+## What would change my mind
+
+- New policies: import-duty changes, export bans, or subsidies that break the link between rainfall and price.
+- Structural breaks: currency moves or market restructuring that makes the past a poor guide.
+- Thin data: a market with long observed gaps where features and calibration cannot be estimated.
+- Rainfall signal: a longer rain record showing the h=1-2 gain was noise.
+
 ## Licence
 
 Data: WFP Kenya prices per HDX terms; CHIRPS public domain.
